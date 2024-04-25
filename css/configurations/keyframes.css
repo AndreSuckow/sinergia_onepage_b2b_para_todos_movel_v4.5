@@ -1,0 +1,6 @@
+.pulse {animation: pulse 2.5s infinite;}
+@keyframes pulse {
+    0% {scale: 1.0}
+    50% {scale: 1.08}
+    100% {scale: 1.0}
+  }

@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    /*No text select*/
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -ms-user-select: none;
+}
+
+html, body {
+    width: 100%;
+
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+ul {
+    list-style-type: none;
+}
+
+/* classes genéricas */
+
+.visible {
+    opacity: 1;
+}
+
+.invisible {
+    opacity: 0;
+}

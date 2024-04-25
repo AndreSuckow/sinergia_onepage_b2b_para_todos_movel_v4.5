@@ -1,0 +1,115 @@
+@import url('./lineCanvas.css');
+
+:root {
+  /* cores */
+  --white: #fff;
+  --black: #000;
+  --vivo-orange: #ff9900;
+  --vivo-pink: #e13c7d;
+  --vivo-pink-dark: #b71d63;
+  --vivo-purple: #8533ad;
+  --vivo-purple-dark-1: #55057f;
+  --vivo-purple-dark-2: #461e5f;
+  --vivo-purple-dark-3: #660099;
+  --vivo-purple-dark-4: #380054;
+  --vivo-verde-limao: #82d400;
+  --vivo-menta: #b2d582;
+
+  /* cores selecionadas pela vivi */
+  --cinza-claro: #d9d9d9;
+  --cinza-escuro: #4c4b4b;
+
+  /* tamanho dos títulos e textos */
+  --vivo-h2-size: 48px;
+
+  --vivo-p-size: 30px;
+
+  --vivo-p2-size: 30px;
+  --vivo-h3-size: 70px;
+
+  /* menu */
+  --vivo-font-menu: 1.5rem;
+  --vivo-menu-width: 5.5rem;
+  --aside-menu-width: calc(100% - calc(var(--vivo-menu-width)));
+}
+
+@font-face {
+  font-family: VivoTypeBold;
+  src: url("../../assets/fonts/VivoType-Bold.woff");
+}
+
+@font-face {
+  font-family: VivoTypeRegular;
+  src: url("../../assets/fonts/VivoType-Regular.woff");
+}
+
+@font-face {
+  font-family: VivoTypeLgt;
+  src: url("../../assets/fonts/VivoType-Light.woff");
+}
+
+h1 {
+  margin-top: 2.6875rem;
+  font-family: "VivoTypeBold";
+  font-size: var(--vivo-h1-size);
+  color: var(--vivo-verde-limao);
+}
+
+h2 {
+  font-family: "VivoTypeBold";
+  color: var(--white);
+  font-size: var(--vivo-h2-size);
+  font-weight: normal;
+}
+
+h3 {
+  font-family: "VivoTypeBold";
+  color: var(--white);
+  font-size: var(--vivo-p2-size);
+  font-weight: normal;
+}
+
+p {
+  font-family: "VivoTypeRegular";
+  font-size: var(--vivo-p-size);
+  color: var(--white);
+  font-weight: normal;
+}
+
+span {
+  font-family: "VivoTypeBold";
+  color: var(--vivo-purple-dark-3);
+  font-size: var(--vivo-subtitle-h1-size);
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+  height: 50%;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--vivo-menta);
+}
+
+::-webkit-scrollbar-thumb {
+  /* background: #888; */
+
+  background: rgb(109, 137, 57);
+  background: linear-gradient(
+    to bottom,
+    rgba(109, 137, 57, 1) 0%,
+    rgba(119, 192, 0, 1) 100%
+  );
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--vivo-purple);
+}
+
+canvas {
+  display: block;
+}
+
+img {
+  filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 6.5));
+}

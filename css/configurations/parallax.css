@@ -1,0 +1,82 @@
+.background .sparks {
+    width: 30%;
+    position: absolute;
+    top: 5%;
+    right: 0%;
+    transition: 1.5s;
+    filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 6.5));
+    z-index: 3;
+}
+
+.section-2 .sparks {
+    position: absolute;
+    width: 20%;
+    left: 5%;
+    top: 0;
+    z-index: 1;
+    transition: 1.5s;
+    filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 6.5));
+}
+
+.section-8 .sparks3 {
+    position: absolute;
+    top: 78%;
+    right: 5%;
+    width: 5%;
+    transition: 1.5s;
+    filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 6.5));
+}
+
+.section-11 .sparksParallax3 {
+    position: absolute;
+    width: 30%;
+    right: 0;
+    top: 107%;
+    z-index: 2;
+}
+
+
+.section-11 .triple-square2 {
+    position: absolute;
+    top: -47%;
+    right: 0;
+}
+
+/* section 12 */
+
+.section-12 .triple-square3 {
+    position: absolute;
+    right: 0;
+    z-index: 3;
+    top: 0;
+}
+
+.section-12 .triple-square4 {
+    position: absolute;
+    left: 1.5%;
+    z-index: 3;
+    bottom: 0;
+    width: 11%;
+}
+
+
+
+.section-15 .lamp-1 {
+    top: 470%;
+    left: 28%;
+}
+
+.section-15 .lamp-2 {
+    top: 550%;
+    right: 8%;
+    width: 8%;
+}
+
+
+.section-23 .sparksParallax4 {
+    top: -300%;
+    left: 0;
+    position: absolute;
+    width: 25%;
+    z-index: 3;
+}

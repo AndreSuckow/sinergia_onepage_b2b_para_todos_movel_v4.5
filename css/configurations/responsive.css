@@ -1,0 +1,114 @@
+@media screen and (max-width: 1800px) {
+   
+    #sidebar {
+       width: 5.3rem;
+    }
+}
+ 
+ 
+@media (max-width: 1700px) {
+ 
+    #sidebar {
+        width: 5.0rem;
+       
+     }
+     
+}
+ 
+@media (max-width: 1600px) {
+    #sidebar {
+        width: 4.5rem;
+    }
+ 
+    #sidebar ul {
+        padding: 0 1rem;
+    }
+}
+ 
+ 
+@media (max-width: 1500px) {
+    #sidebar {
+        width: 4.0rem;
+    }
+ 
+    #sidebar ul {
+        padding: 0 0.8rem;
+    }
+}
+ 
+@media (max-width: 1400px) {
+    #sidebar {
+        width: 3.6rem;
+    }
+ 
+    #sidebar ul {
+        padding: 0 0.8rem;
+    }
+ 
+    #sidebar ul li a {
+        font-size: 1.2rem;
+    }
+}
+ 
+@media (max-width: 1300px) {
+    #sidebar {
+        width: 3.6rem;
+    }
+ 
+    #sidebar ul {
+        padding: 0 0.6rem;
+    }
+ 
+    #sidebar ul li a {
+        font-size: 1.0rem;
+    }
+}
+ 
+@media (max-width: 1200px) {
+    #sidebar {
+        width: 3.6rem;
+    }
+ 
+    #sidebar ul {
+        padding: 0 0.6rem;
+    }
+ 
+    #sidebar ul li a {
+        font-size: 1.0rem;
+    }
+ 
+    #sidebar li img {
+        width: 2.075rem;
+        height: 2.075rem;
+    }
+}
+ 
+ 
+@media (max-width: 1100px) {
+    #sidebar {
+        width: 3.2rem;
+    }
+ 
+    #sidebar ul {
+        padding: 0 0.6rem;
+    }
+ 
+    #sidebar ul li a {
+        font-size: 1.0rem;
+    }
+ 
+    #sidebar li img {
+        width: 2.075rem;
+        height: 2.075rem;
+    }
+ 
+}
+ 
+ 
+@media only screen and (max-width: 768px) and (orientation: portrait) {
+    #sidebar {
+        display: none !important;
+    }
+ }
+ 
+   
