@@ -264,7 +264,7 @@ const smartEmpresasContentConfig = {
   </div>
   <div class="flex gap-15 items-start">
     <img
-      src="/assets/section/smart_empresas_phone.png"
+      src="./assets/section/smart_empresas_phone.png"
       width="230"
       alt=""
     />
@@ -284,7 +284,7 @@ const smartEmpresasContentConfig = {
   </div>
   <div class="flex gap-15 items-start">
     <img
-      src="/assets/section/smart_empresas_compartilhamento.png"
+      src="./assets/section/smart_empresas_compartilhamento.png"
       width="230"
       alt=""
     />
@@ -303,7 +303,7 @@ const smartEmpresasContentConfig = {
   </div>
   <div class="flex gap-15 items-start">
     <img
-      src="/assets/section/smart_empresas_compentario.png"
+      src="./assets/section/smart_empresas_compentario.png"
       width="230"
       alt=""
     />
